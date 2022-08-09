@@ -13,4 +13,4 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Run API Tests
-        run: newman run "Scenario_Check.postman_collection.json"
+        run: newman run https://www.getpostman.com/collections/a4976b96abd2aa404316
